@@ -3,8 +3,7 @@ tarefas = []
 
 def adicionar_tarefa(tarefa):
     tarefas.append(tarefa)
-    print(f"Tarefa  adicionada!")
-
+    print(f"Tarefa {tarefa} adicionada!")
 def listar_tarefas():
     print("\n--- Lista de Tarefas ---")
     for i, tarefa in enumerate(tarefas, 1):
